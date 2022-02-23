@@ -11,3 +11,22 @@
   justify-self: center;
   border: 10rem, solid, black;
 }
+
+button{
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  font-family : Georgia, serif;
+  font-size: medium;
+  background-color: #005892;
+  outline: none;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+.observations{
+  font-weight: bold;
+}

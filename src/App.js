@@ -45,10 +45,10 @@ function App() {
          <img src='./img/logo-clean3000.png' className="App-logo" alt="" />
        <h1>AVIS DE PASSAGE</h1> 
        </header>
-         <div id="body">
+         <div className="body">
            
          <button id="newClient">
-         <Link to="/nouveauclient">
+         <Link to="/nouveauclient" className="link">
                Enregistrer nouveau client
                </Link>
              </button>

@@ -1,16 +1,14 @@
-import React from 'react';
+// import React from 'react';
 
-const Technicien = ({name}) => {
-    return (
-        <div className="select-wrapper">
-            <select id="tech-select">
-                <option>{name}</option>
-                </select>
-                </div>
+// const Technicien = ({name, id}) => {
+//     return (
+        
+//                 <option key={id}>{name}</option>
+                
           
         
       
-    )
-  }
+//     )
+//   }
   
-  export default Technicien
+//   export default Technicien
