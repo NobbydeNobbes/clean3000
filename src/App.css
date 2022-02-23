@@ -6,3 +6,8 @@
   width : 25%;
   height: 25%;
 }
+
+.body{
+  justify-self: center;
+  border: 10rem, solid, black;
+}
