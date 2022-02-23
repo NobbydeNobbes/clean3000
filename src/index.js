@@ -3,10 +3,29 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AddClient from './components/newClient'
+
+const Root =()=>{
+  return(
+    <BrowserRouter>
+      <Routes>
+      <Route exact path="/" element={<App/>}/>
+      <Route path="/nouveauclient" element={<AddClient/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+
+
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Root />
   </React.StrictMode>,
   document.getElementById('root')
 );

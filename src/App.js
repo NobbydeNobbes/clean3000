@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
+import { Link } from 'react-router-dom'
 // import "antd/dist/antd.css";
 // import { Menu, Button } from 'antd';
 // import {
@@ -47,9 +48,13 @@ function App() {
       <h1>AVIS DE PASSAGE</h1> 
       </header>
         <body>
+          
         <button id="newClient">
+        <Link to="/nouveauclient">
               Enregistrer nouveau client
+              </Link>
             </button>
+            
           <form>
             <label>
               Nom entreprise/ou client : 
